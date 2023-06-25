@@ -1,0 +1,251 @@
+/* Pikolitas */
+
+p, h1, h2, h3, div {
+color: #fff;
+}
+a:link {
+color: #0f0;
+background-color: transparent;
+text-decoration-line: underline;
+}
+a:visited {
+color: orange;
+background-color: transparent;
+text-decoration-line: underline;
+}
+a:hover {
+color: #0ff;
+background-color: transparent;
+text-decoration: underline;
+}
+a:active {
+color: #0aa;
+background-color: transparent;
+text-decoration: underline;
+}
+/* li:nth-child(odd) {
+background-color: rgba(40, 40, 69, 50);
+}
+li:nth-child(even) {
+background-color: rgba(14, 14, 32, 50);
+}
+li:hover {
+background-color: rgba(24, 24, 52, 50);
+} */
+h:nth-child(odd):hover {
+color: #4ff;
+}
+h:nth-child(even):hover {
+color: #aff;
+}
+@keyframes colorDeformation {
+0% {background-color: #00000055;}
+50% {background-color: #000000cc;}
+100% {background-color: #00000055;}
+}
+
+
+/* Robotas */
+
+.my-profession {
+margin: 12px 0 18px 0;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;  
+}
+
+.my-name {
+font-size: 45px;
+font-weight: 700;
+line-height: 55px;
+margin: 0 0 28px 0;
+}
+
+.my-descryption {
+margin: 0 0 18px 0;
+font-style: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+width: 525px;
+}
+
+.main-content-title {
+margin: 30px 0 8px 0;
+font-style: normal;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+}
+.pon {
+font-style: normal;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+}
+.project-item-description{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.project-item-link{
+    font-style: normal;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    text-decoration-line: underline;
+}
+.work-experience-position {
+        font-style: normal;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            margin: 0 ;
+}
+.work-experience-place{
+margin-bottom: 16px;
+}
+.work-period{
+    font-style: normal;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        margin: 12px 0 8px 0;
+        color:rgba(249, 249, 249, 0.537)
+}
+.work-duties{
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color:#b9cdf3;
+}
+.work-experience-company{
+    color:rgb(72, 162, 198)
+}
+
+.work-experience-container {
+    margin-bottom: 44px;
+}
+
+.project-container{
+margin-bottom: 48px;
+}
+
+.project-item{
+font-style: normal;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.project-list {
+padding: 0 0 0 14px;
+margin: 0;
+}
+.work-duties-list {
+padding: 0 0 0 12px;
+    margin: 0;
+}
+
+.about-me-container{
+margin-bottom: 64px; /*стак пикселей */
+}
+
+.main-content {
+padding: 88px; 
+}
+
+.wrapper {
+display: flex;
+flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+background-color: #00000055;
+animation: colorDeformation 3s infinite;
+box-shadow: 0px 4px 4px rgba(235, 215, 215, 0.25);
+}
+
+.sidebar{
+width: 370px;
+background: #000000aa;
+}
+
+.my-photo {
+margin-top: 40px;
+}
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+margin: 48px 0 0 40px;
+}
+
+.sidebar-title {
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 8px;
+}
+
+.contacts-type  {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;  
+}
+
+.contacts-item {
+margin: 0;
+}
+
+body {
+font-family: 'Montserrat', sans-serif; 
+background-color: beige;
+padding: 40px;
+}
+
+.contacts-number {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #465c84;
+}
+
+.contacts-email {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #214fa3;
+}
+
+.skills-list {
+margin: 0;
+padding: 0 0 0 12px;
+}
+
+.skill-list-items {
+color: #ece9f8
+}
+
+.skill-list-text {
+color: #c9d2e5;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 14px;
+line-height: 24px;
+}
+
+.soft-skills-list {
+color: #ece9f8;
+margin: 0;
+margin-left: -25px;
+padding: 0 -10 0 12px;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+}
+
